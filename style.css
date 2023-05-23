@@ -1,0 +1,29 @@
+body{
+    display:grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "cabeca cabeca cabeca cabeca"
+    "esquer princi princi direit"
+    "rodape rodape rodape rodape";
+    grid-template-columns: 300px auto auto 300px;
+    grid-template-rows: auto auto auto auto;
+}
+.grid_h{
+    grid-area: cabeca;
+    display: flex;
+}
+.grid_m{
+    grid-area: princi;
+}
+.grid_e{
+    grid-area: esquer;
+    display: flex;
+}
+.grid_d{
+    grid-area: direit;
+    display: flex;
+}
+.grid_f{
+    grid-area: rodape;
+    display: flex;
+}
